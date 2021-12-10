@@ -1,0 +1,177 @@
+body{
+    background-color: #892B64;
+}
+
+@media (max-width: 600px) {
+    
+}
+
+a:link{
+color:rgb(30, 195, 227) ;
+}
+
+a:visited{
+color:#1780A1;
+}
+
+a:hover{
+   color:#BA3B87;
+}   
+
+/* Styles page 1*/
+.title-style{
+    position: absolute;
+    left:250px;
+    font-size: 50px;
+}
+
+.para1-position{
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    
+}
+
+pre{
+    color: rgb(30, 195, 227);
+    font-size: 120%;
+}
+
+ul{
+    font-size: 25px;
+}
+
+li{
+    color:#5C4D7D
+}
+
+.postition-video-p1{
+    position: relative;
+    left:50%;
+    bottom:200px;
+}
+
+/* Styles page 2*/
+
+.header{
+    background-color:#5C4D7D;
+    padding:30px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+.colonne{
+
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex:1;
+    font-size: 20px;
+    padding: 10px;
+    height: 250px;
+    background-color: #723C70;
+}
+
+.footer{
+
+    background-color: #5C4D7D;
+    padding: 10px;
+}
+
+p {
+    color:rgb(30, 195, 227) ;
+}
+
+details {
+    width: 75%;
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.rotation{
+    animation-name: rotate;
+    animation-duration: 1s;
+  }
+  @keyframes rotate {
+    0% {
+
+      transform: rotate(0);
+
+    }
+    100% {
+
+      transform: rotate(360deg);
+
+    }
+  }
+
+/* Styles page 3*/
+
+#tableau {
+    border: solid black;
+    background-color: #5C4D7D ;
+    padding: 5px;
+}
+
+table{
+    border: solid black;
+    background-color: #5C4D7D ;
+    padding: 5px;
+}
+
+.cover-image-size{
+    max-width: 100px;
+    padding-left: 30%;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+.tableau-writing-style{
+    color: #26C3E3;
+    font-size: 20px;
+}
+
+.UnvsUn{
+    background-color: #723C70;
+}
+.UnvsUn:hover{
+    background-color:#BA3B87;
+}
+
+/* Styles page 4*/
+
+.last-image1-position{
+    position: absolute;
+    height: 300px;
+    left: 50%;
+    bottom: 50%;
+    color: #26C3E3;
+}
+
+.last-image2-position{
+    position: absolute;
+    height: 270px;
+    left: 55%;
+    bottom: 5%;
+    color: #26C3E3;
+}
+
